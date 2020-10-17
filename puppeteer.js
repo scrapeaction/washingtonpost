@@ -9,7 +9,7 @@ function crawlPage() {
         const args = [
             "--disable-setuid-sandbox",
             "--no-sandbox",
-            "--blink-settings=imagesEnabled=false",
+            "--blink-settings=imagesEnabled=true",
         ];
         const options = {
             args,
